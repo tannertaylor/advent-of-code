@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "78BSKPuLKM/GCr/CJMbPvoqrMwgUZydX7XYJSlkTB4fF0aKCn3W8RvEVqgrzzsnQFr4CsxGETx31DOxhG/i07g==",
+  "success": true,
+  "projectFilePath": "/home/tanner/code/advent/2022/day-01/day-01.csproj",
+  "expectedPackageFiles": [
+    "/home/tanner/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.0/microsoft.aspnetcore.app.ref.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
