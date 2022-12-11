@@ -26,7 +26,7 @@ foreach (var register in RunCpuCycles())
 {
     if (cyclesToCheck.Contains(cycle))
         signalStrengths.Add(register * cycle);
-    crt[cycle - 1] = Enumerable.Range(register, 3).Contains(cycle % 40) ? '#' : '.';
+    crt[cycle - 1] = Enumerable.Range(register, 3).Contains(cycle % 40) ? '#' : ' ';
     cycle++;
 }
 
@@ -34,3 +34,4 @@ Console.WriteLine($"Part 1: {signalStrengths.Sum()}");
 Console.WriteLine();
 Console.WriteLine("Part 2");
 Console.Write(string.Join('\n', crt.Chunk(40).Select(x => new String(x))));
+Console.WriteLine();
